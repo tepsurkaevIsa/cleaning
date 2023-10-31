@@ -1,0 +1,396 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+} */
+
+header,
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+section {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  margin-top: auto;
+}
+
+.service-item {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service-item img {
+  max-width: 30%;
+  margin-right: 20px;
+}
+
+.service-item-content {
+  flex: 1;
+}
+
+.service-item h3 {
+  color: #333;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.service-item p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.service-item ul {
+  margin: 20px 0;
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+.service-item li {
+  color: #555;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.home-content {
+  padding: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.feature-item {
+  flex-basis: calc(33% - 20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-style: italic;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px 0;
+  position: relative;
+}
+
+blockquote::before {
+  content: "“";
+  font-size: 40px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #ccc;
+}
+
+blockquote::after {
+  content: "”";
+  font-size: 40px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #ccc;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  color: #555;
+}
+
+.main {
+  background-color: rgb(63, 151, 0);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main > div {
+  width: 50%;
+  text-align: center;
+}
+
+.main img {
+  width: 30px;
+}
+.main p {
+  color: white;
+  font-size: 10px;
+}
+
+/* Главная страница */
+
+.intro {
+  padding: 30px;
+  color: #eee;
+  align-items: flex-start;
+  justify-content: space-between;
+  display: flex;
+
+  background-image: url("./img/2015.jpg");
+  background-size: cover; /* Это масштабирует изображение так, чтобы оно заполнило элемент */
+  background-repeat: no-repeat; /* Это предотвращает повторение изображения, если оно меньше элемента */
+  background-position: center; /*  Центрирует изображение в элементе */
+  min-height: 80vh;
+}
+
+.intro div {
+  width: 60%;
+}
+
+.intro img {
+  max-width: 15%;
+}
+
+.about {
+  padding: 4% 3%;
+  background-color: #1b3f77;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  margin: 40px 20px;
+
+}
+
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.about img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.advantages {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+  padding: 2%;
+  text-align: center;
+  background-color: #1b3f77;
+}
+.advantages h2 {
+  color: white;
+}
+
+.advantages ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages li {
+  padding: 15px 0;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 16px;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+  margin: 1%;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+  padding: 40px 0;
+  background-color: #eee;
+  margin-top: 40px;
+}
+
+.contact a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.advantages img {
+  width: 70px;
+  background-color: transparent;
+}
+
+.contact-div {
+  min-height: 54vh;
+}
+
+@media (max-width: 768px) {
+  .service-item {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .service-item img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .features {
+    flex-wrap: wrap;
+  }
+  .feature-item {
+    flex-basis: calc(100% - 20px);
+  }
+
+  .about {
+    flex-direction: column;
+    margin: 0;
+    border: none;
+  }
+
+  .about img,
+  .about p {
+    flex: 100%;
+  }
+
+  .intro {
+    max-height: 100vh;
+    padding: 0 10px !important;
+  }
+
+  .intro img{
+    margin-top: 10px;
+  }
+
+  .advantages ul {
+    display: block;
+  }
+
+  .advantages li {
+    width: 95%;
+    margin-bottom: 5%;
+    text-align: start;
+  }
+
+  .home-content {
+    padding: 0;
+  }
+
+  section {
+    margin: 0;
+    border-radius: 0;
+    padding: 15px;
+  }
+  header,
+  footer{
+    padding: 1px 10px;
+  }
+
+  .intro div {
+    width: 85%;
+    font-weight: 600;
+  }
+
+  .introH3, .introP{
+    color: #1b3f77 ;
+    
+  }
+
+.about h2 {
+  margin-bottom: 0;
+}
+.about p{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.intro h2 {
+  text-align: center;
+}
+
+.intro span{
+  line-height: 1.2;
+} 
+.contact{
+  padding: 10px;
+}
+
+.contact-div{
+  min-height: 70vh;
+}
+
+}
