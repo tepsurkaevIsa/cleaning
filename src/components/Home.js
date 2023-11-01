@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../img/2023.jpg'
+
 
 
 import like from '../img/like.png'
@@ -30,7 +30,7 @@ const Home = () => {
   
              </div>
              
-                <img src={logo} alt="Клининговые услуги" />
+               
                 {/* // <button>Свяжитесь с нами</button> */}
             </section>
 
@@ -74,7 +74,7 @@ const Home = () => {
                 <h2>Контактная информация</h2>
                 <p>Email: <a href="mailto:mst.chs2023@gmail.com">mst.chs2023@gmail.com</a></p>
                 <p>Телефон: <a href="tel:+79853196269">+7 (985) 319-62-69</a></p>
-                <p>Адрес: ул. Чистоты, д. 10, г. Москва</p>
+                <p>Адрес: 125499, Г.МОСКВА, ВН.ТЕР.Г. МУНИЦИПАЛЬНЫЙ ОКРУГ ГОЛОВИНСКИЙ, Б-Р КРОНШТАДТСКИЙ, Д. 39 К. 1, ПОМЕЩ. 1П</p>
             </section>
 
         </div>

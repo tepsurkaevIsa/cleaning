@@ -10,7 +10,7 @@ import terret from '../img/uborkaterritorii.jpg'
 const Services = () => {
   return (
     <section>
-      <h2>Наши Услуги</h2>
+      <h2>Наши услуги</h2>
 
       {/* Ежедневная уборка */}
       <div className="service-item">
